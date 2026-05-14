@@ -292,6 +292,7 @@ let package = Package(name: "BoringSSL", products: [
         "boringssl/crypto/pkcs8/pkcs12_test.cc",
         "boringssl/crypto/poly1305/poly1305_test.cc",
         "boringssl/crypto/pool/pool_test.cc",
+        "boringssl/crypto/rand/fork_detect_test.cc",
         "boringssl/crypto/siphash/siphash_test.cc",
         "boringssl/crypto/stack/stack_test.cc",
         "boringssl/crypto/trust_token/trust_token_test.cc",
